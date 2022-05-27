@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duunipojat</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <!--side-bar-->
+        <div class="nav-bar">
+            <button
+                onclick="document.getElementById('menu').style.visibility = document.getElementById('menu').style.visibility == 'visible' ? 'hidden' : 'visible'"
+                class="open">
+                <h1>_</h1>
+                <h1>_</h1>
+                <h1>_</h1>
+            </button>
+            <div class="menu" id="menu">
+                <button id="home-btn">
+                    <h1>
+                        Koti
+                    </h1>
+                </button>
+                <button id="services-btn">
+                    <h1>
+                        Palvelumme
+                    </h1>
+                </button>
+                <button id="prices-btn">
+                    <h1>
+                        Hinnasto
+                    </h1>
+                </button>
+                <button id="about-btn">
+                    <h1>
+                        Meidän tarina
+                    </h1>
+                </button>
+                <button>
+                    <h1 id="feedback-btn">
+                        Kokemuksia
+                    </h1>
+                </button>
+                <button id="contact-btn">
+                    <h1>
+                        Ota yhteyttä
+                    </h1>
+                </button>
+            </div>
+        </div>
+        <!-- side-bar-end -->
+        <!-- image-with-captions -->
+        <div class="section">
+            <div class="image-with-caption">
+                <div class="image"></div>
+                <div class="caption">
+                    <h1 id="home">Duunipojat</h1>
+
+                    <h2>Kaikki missä apua tarvitset, me autamme</h2>
+                </div>
+            </div>
+        </div>
+        <!-- image-with-captions-end -->
+        <!-- three-sections -->
+        <div class="section">
+            <div class="three-objects">
+                <div>
+                    <div class="image" style="background-image: url(./assets/img/ant.jpg);"></div>
+                    <h1>Ahkeruus</h1>
+                    <h2>
+                        Ahkeruus elämässä palkitsee ja täten pyrimme suorittamaan jokaisen työtehtävän
+                        <strong>ahkerasti</strong> ja
+                        <strong>reippaasti</strong>
+                    </h2>
+                </div>
+                <div>
+                    <div class="image" style="background-image: url(./assets/img/trust.jpg);"></div>
+                    <h1>Luotettavuus</h1>
+                    <h2>
+                        Toimimme <strong>aina</strong> luotettavasti ja asiakkaan etua ajatellen. Luotettava työntekijä
+                        on aina <strong>paras</strong>
+                        mahdollinen työntekijä.
+                    </h2>
+                </div>
+                <div>
+                    <div class="image" style="background-image: url(./assets/img/positivity.jpg);"></div>
+                    <h1>Asiakastyytyväisyys</h1>
+                    <h2>
+                        Pyrimme <strong>aina</strong> siihen, että palvelumme auttavat asiakasta mahdollisimman paljon.
+                        Saat aina
+                        vastauksen jättämääsi yhteydenottopyyntöön <strong>24h kuluessa</strong>.
+                    </h2>
+                </div>
+
+            </div>
+        </div>
+        <!-- three-sections-end -->
+        <!-- image-grid -->
+        <div class="section">
+            <h1 id="services">Palvelumme</h1>
+            <h2>Mitä sitten voimme tehdä? Alla mainittujen asioiden lisäksi olemme avoinnia kaiken tyyppisille
+                tarjouksille. Ota vain rohkeasti yhetyttä!</h2>
+            <div class="image-grid">
+                <div>
+                    <div class="data">
+                        <div class="image" style="background-image: url(./assets/img/lawnmover.jpg);"></div>
+                        <div>
+                            <h1>Ruohonleikkaus</h1>
+                            <h2>
+                                <strong>Rehottaako nurmikko takapihalla?</strong> Eikö tekisi mieli alkaa kaivamaan
+                                ruohonleikkuria
+                                varastosta? Älä huoli, hoidamme ruohon leikkuun satoi tai paistoi
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="data">
+                        <div class="image" style="background-image: url(./assets/img/bush.jpg);"></div>
+                        <div>
+                            <h1>Oksien pilkkomista</h1>
+                            <h2>
+                                <strong>Ärsyttävätkö pihan vallanneet puskat ja oksikot?</strong> Hoidamme puskat
+                                siisteiksi reippaasti
+                                ja edullisesti.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class=" data">
+                        <div class="image" style="background-image: url(./assets/img/firewood.jpg);"></div>
+                        <div>
+                            <h1>Poltopuiden hakkaamista</h1>
+                            <h2>
+                                <strong>Ovatko polttopuut loppumassa?</strong> Jollakinhan se takka pitää lämmittää.
+                                Ota
+                                vain yhteyttä,
+                                ja täytämme liiterin siististi uusilla tuoreilla polttopuilla
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="data">
+                        <div class="image" style="background-image: url(./assets/img/car-washing.jpg);"></div>
+                        <div>
+                            <h1>Autopesua</h1>
+                            <h2>
+                                Onko auto pesun tarpeessa etkä haluaisi viedä sitä pesulaan? Hoidamme <strong>
+                                    edulliesti ja
+                                    huolellisesti</strong> auton kun auton pesemisen
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="data">
+                        <div class="image" style="background-image: url(./assets/img/watering.jpg);"></div>
+                        <div>
+                            <h1>Kukkien kastelua</h1>
+                            <h2>
+                                <strong>Kuumassa helteessä kukkien kasteleminenkin saattaa kuulostaa hikiseltä
+                                    hommalta.</strong> Ei
+                                huolta, Voimme rehkiä puolestasi
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="data">
+                        <div class="image" style="background-image: url(./assets/img/terrace.png);"></div>
+                        <div>
+                            <h1>Terassien pesua</h1>
+                            <h2>
+                                <strong>Terassit keräävät yhtä sun toista likaa pinnoilleen vuosien
+                                    mittaan.</strong>
+                                Ota yhteyttä, ja
+                                palauta terassisi vanhaan kiiltoon
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="data">
+                        <div class="image" style="background-image: url(./assets/img/raking.jpg);"></div>
+                        <div>
+                            <h1>Haravointia</h1>
+                            <h2>
+                                Kaikki pihan omistavat tietävät, että syksyn saapuessa saapuvat myös
+                                <strong>lehdet.</strong> Vältä turha
+                                haravanvarressa työskenteleminen, ja anna meidän hoitaa pihasi siistiksi
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="data">
+                        <div class="image" style="background-image: url(./assets/img/snow.jpg);"></div>
+                        <div>
+                            <h1>Lumitöitä</h1>
+                            <h2>
+                                Mikään ei pilaa tunnelmallista talvi-iltaa niin kuin takaraivossa tykyttävä ajatus
+                                ulkona odottavista <strong>lumitöistä</strong>. Anna meidän hoitaa pihan siistinä
+                                pitäminen.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- image-grid-end -->
+        <!-- two-sections -->
+        <div class="section">
+            <h1 id="prices">Hinnasto</h1>
+            <h2>Ota yhteyttä jo tänään, niin hoidetaan yhdessä asiat pois päiväjärjestyksestä.</h2>
+            <div class="two-objects">
+                <div>
+                    <div class="image" style="background-image: url(./assets/img/showel.jpg);"></div>
+                    <h1>Yhden miehen voimin</h1>
+                    <h2><strong>15€/h</strong></h2>
+                    <h2>
+                        Urapalkasta sovitaan erikseen. <strong>"Haluatko tilata ruohonleikkuut koko
+                            kesäksi?"</strong>
+                    </h2>
+                    <h3>luoma-kirkkonummen keskusta alueella. Matkakustannukset sovitaan tapauskohtaisesti kirkkonummen
+                        sisälle tarvittaessa ja kirkkonummen ulkopuolelle 0.4 snt /km.</h3>
+                    <button>Ota yhteyttä</button>
+                </div>
+                <div>
+                    <div class="image" style="background-image: url(./assets/img/showels.jpg);"></div>
+                    <h1>Kahden miehen voimin</h1>
+                    <h2><strong>25€/h</strong></h2>
+                    <h2>
+                        Urapalkasta sovitaan erikseen. <strong>"Haluatko tilata ruohonleikkuut koko
+                            kesäksi?"</strong>
+                    </h2>
+                    <h3>luoma-kirkkonummen keskusta alueella. Matkakustannukset sovitaan tapauskohtaisesti kirkkonummen
+                        sisälle tarvittaessa ja kirkkonummen ulkopuolelle 0.4 snt /km.</h3>
+                    <button>Ota yhteyttä</button>
+                </div>
+
+            </div>
+        </div>
+        <!-- two-sections-end -->
+        <!-- image-grid-2 -->
+        <div class="section">
+            <h1 id="feedback">Kokemuksia</h1>
+            <h2>Mitä sitten voimme tehdä?</h2>
+            <div class="image-grid">
+                <div>
+                    <div class="data">
+                        <div class="image"></div>
+                        <div>
+                            <h1>Ruohonleikkaus</h1>
+                            <h2>
+                                Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
+                                quasi
+                                quisquam non
+                                impeditsit
+                                accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
+                                amet!
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="data">
+                        <div class="image"></div>
+                        <div>
+                            <h1>Oksien pilkkomista</h1>
+                            <h2>
+                                Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
+                                quasi
+                                quisquam non
+                                impeditsit
+                                accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
+                                amet!
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="data">
+                        <div class="image"></div>
+                        <div>
+                            <h1>Poltopuiden hakkaamista</h1>
+                            <h2>
+                                Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
+                                quasi
+                                quisquam non
+                                impeditsit
+                                accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
+                                amet!
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="data">
+                        <div class="image"></div>
+                        <div>
+                            <h1>Autopesua</h1>
+                            <h2>
+                                Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
+                                quasi
+                                quisquam non
+                                impeditsit
+                                accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
+                                amet!
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="data">
+                        <div class="image"></div>
+                        <div>
+                            <h1>Kukkien kastelua</h1>
+                            <h2>
+                                Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
+                                quasi
+                                quisquam non
+                                impeditsit
+                                accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
+                                amet!
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="data">
+                        <div class="image"></div>
+                        <div>
+                            <h1>Terassien pesua</h1>
+                            <h2>
+                                Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
+                                quasi
+                                quisquam non
+                                impeditsit
+                                accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
+                                amet!
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="data">
+                        <div class="image"></div>
+                        <div>
+                            <h1>Haravointia</h1>
+                            <h2>
+                                Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
+                                quasi
+                                quisquam non
+                                impeditsit
+                                accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
+                                amet!
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="data">
+                        <div class="image"></div>
+                        <div>
+                            <h1>Lumitöitä</h1>
+                            <h2>
+                                Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
+                                quasi
+                                quisquam non
+                                impeditsit
+                                accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
+                                amet!
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- image-grid-2-end -->
+        <!-- form-column -->
+        <div class="section">
+            <div class="form-column" id="contact">
+                <div class="google-form" id="ff-compose"></div>
+                <script async defer
+                    src="https://formfacade.com/include/112625860871249621031/form/1FAIpQLSeUNa-UKm5ItITt9sybENWdZoPw_e41tWK5VtvWcTbyJFn_KA/bootstrap.js?div=ff-compose"></script>
+            </div>
+        </div>
+        <!-- form-column-end -->
+
+        <!-- footer -->
+        <div class="section">
+            <div class="footer">
+                <div>
+                    <h1>Sosiaaliset mediat</h1>
+                    <h2>Gmail</h2>
+                    <h2>TikTok</h2>
+                    <h2>Twitter</h2>
+                    <h2>Facebook</h2>
+                    <h2>YouTube</h2>
+                </div>
+            </div>
+            <h3>Website: <strong>Tuukka Moilanen © 2022.</strong> Licensed under Creative Commons (CC). <a
+                    href="https://tuukk.dev">Interested about my work?</a></h3>
+            <h3>Contact about a problem: <strong>admin@tuukk.dev</strong></h3>
+        </div>
+        <!-- footer-end -->
+    </div>
+</body>
+
+</html>
