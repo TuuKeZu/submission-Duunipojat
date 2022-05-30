@@ -27,11 +27,11 @@ const Initialize = () => {
     document.getElementById('about-btn').addEventListener('click', () => {
         document.location = './about.html';
     });
-
+    /*
     document.getElementById('feedback-btn').addEventListener('click', () => {
         feedback.scrollIntoView({ behavior: "smooth", block: "center" });
     });
-
+    */
     document.getElementById('contact-btn').addEventListener('click', () => {
         contact.scrollIntoView({ behavior: "smooth", block: "center" });
     });

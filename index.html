@@ -14,6 +14,7 @@
     <div class="container">
         <!--side-bar-->
         <div class="nav-bar">
+            <div class="logo"></div>
             <button
                 onclick="document.getElementById('menu').style.visibility = document.getElementById('menu').style.visibility == 'visible' ? 'hidden' : 'visible'"
                 class="open">
@@ -42,11 +43,13 @@
                         Meidän tarina
                     </h1>
                 </button>
-                <button>
-                    <h1 id="feedback-btn">
-                        Kokemuksia
-                    </h1>
-                </button>
+                <!--
+                    <button>
+                        <h1 id="feedback-btn">
+                            Kokemuksia
+                        </h1>
+                    </button>
+                -->
                 <button id="contact-btn">
                     <h1>
                         Ota yhteyttä
@@ -62,7 +65,7 @@
                 <div class="caption">
                     <h1 id="home">Duunipojat</h1>
 
-                    <h2>Kaikki missä apua tarvitset, me autamme</h2>
+                    <h2>Kaikkeen missä apua tarvitset, me autamme</h2>
                 </div>
             </div>
         </div>
@@ -105,7 +108,7 @@
         <div class="section">
             <h1 id="services">Palvelumme</h1>
             <h2>Mitä sitten voimme tehdä? Alla mainittujen asioiden lisäksi olemme avoinnia kaiken tyyppisille
-                tarjouksille. Ota vain rohkeasti yhetyttä!</h2>
+                tarjouksille. Ota vain rohkeasti yhteyttä!</h2>
             <div class="image-grid">
                 <div>
                     <div class="data">
@@ -223,7 +226,7 @@
             <div class="two-objects">
                 <div>
                     <div class="image" style="background-image: url(./assets/img/showel.jpg);"></div>
-                    <h1>Yhden miehen voimin</h1>
+                    <h1>Yhden miehen voimalla</h1>
                     <h2><strong>15€/h</strong></h2>
                     <h2>
                         Urapalkasta sovitaan erikseen. <strong>"Haluatko tilata ruohonleikkuut koko
@@ -235,7 +238,7 @@
                 </div>
                 <div>
                     <div class="image" style="background-image: url(./assets/img/showels.jpg);"></div>
-                    <h1>Kahden miehen voimin</h1>
+                    <h1>Kahden miehen voimalla</h1>
                     <h2><strong>25€/h</strong></h2>
                     <h2>
                         Urapalkasta sovitaan erikseen. <strong>"Haluatko tilata ruohonleikkuut koko
@@ -250,147 +253,149 @@
         </div>
         <!-- two-sections-end -->
         <!-- image-grid-2 -->
-        <div class="section">
-            <h1 id="feedback">Kokemuksia</h1>
-            <h2>Mitä sitten voimme tehdä?</h2>
-            <div class="image-grid">
-                <div>
-                    <div class="data">
-                        <div class="image"></div>
-                        <div>
-                            <h1>Ruohonleikkaus</h1>
-                            <h2>
-                                Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
-                                quasi
-                                quisquam non
-                                impeditsit
-                                accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
-                                amet!
-                            </h2>
+        <!--
+            <div class="section">
+                <h1 id="feedback">Kokemuksia</h1>
+                <h2>Mitä sitten voimme tehdä?</h2>
+                <div class="image-grid">
+                    <div>
+                        <div class="data">
+                            <div class="image"></div>
+                            <div>
+                                <h1>Ruohonleikkaus</h1>
+                                <h2>
+                                    Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
+                                    quasi
+                                    quisquam non
+                                    impeditsit
+                                    accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
+                                    amet!
+                                </h2>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div>
-                    <div class="data">
-                        <div class="image"></div>
-                        <div>
-                            <h1>Oksien pilkkomista</h1>
-                            <h2>
-                                Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
-                                quasi
-                                quisquam non
-                                impeditsit
-                                accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
-                                amet!
-                            </h2>
+                    <div>
+                        <div class="data">
+                            <div class="image"></div>
+                            <div>
+                                <h1>Oksien pilkkomista</h1>
+                                <h2>
+                                    Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
+                                    quasi
+                                    quisquam non
+                                    impeditsit
+                                    accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
+                                    amet!
+                                </h2>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div>
-                    <div class="data">
-                        <div class="image"></div>
-                        <div>
-                            <h1>Poltopuiden hakkaamista</h1>
-                            <h2>
-                                Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
-                                quasi
-                                quisquam non
-                                impeditsit
-                                accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
-                                amet!
-                            </h2>
+                    <div>
+                        <div class="data">
+                            <div class="image"></div>
+                            <div>
+                                <h1>Poltopuiden hakkaamista</h1>
+                                <h2>
+                                    Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
+                                    quasi
+                                    quisquam non
+                                    impeditsit
+                                    accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
+                                    amet!
+                                </h2>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div>
-                    <div class="data">
-                        <div class="image"></div>
-                        <div>
-                            <h1>Autopesua</h1>
-                            <h2>
-                                Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
-                                quasi
-                                quisquam non
-                                impeditsit
-                                accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
-                                amet!
-                            </h2>
+                    <div>
+                        <div class="data">
+                            <div class="image"></div>
+                            <div>
+                                <h1>Autopesua</h1>
+                                <h2>
+                                    Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
+                                    quasi
+                                    quisquam non
+                                    impeditsit
+                                    accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
+                                    amet!
+                                </h2>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div>
-                    <div class="data">
-                        <div class="image"></div>
-                        <div>
-                            <h1>Kukkien kastelua</h1>
-                            <h2>
-                                Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
-                                quasi
-                                quisquam non
-                                impeditsit
-                                accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
-                                amet!
-                            </h2>
+                    <div>
+                        <div class="data">
+                            <div class="image"></div>
+                            <div>
+                                <h1>Kukkien kastelua</h1>
+                                <h2>
+                                    Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
+                                    quasi
+                                    quisquam non
+                                    impeditsit
+                                    accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
+                                    amet!
+                                </h2>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div>
-                    <div class="data">
-                        <div class="image"></div>
-                        <div>
-                            <h1>Terassien pesua</h1>
-                            <h2>
-                                Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
-                                quasi
-                                quisquam non
-                                impeditsit
-                                accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
-                                amet!
-                            </h2>
+                    <div>
+                        <div class="data">
+                            <div class="image"></div>
+                            <div>
+                                <h1>Terassien pesua</h1>
+                                <h2>
+                                    Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
+                                    quasi
+                                    quisquam non
+                                    impeditsit
+                                    accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
+                                    amet!
+                                </h2>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div>
-                    <div class="data">
-                        <div class="image"></div>
-                        <div>
-                            <h1>Haravointia</h1>
-                            <h2>
-                                Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
-                                quasi
-                                quisquam non
-                                impeditsit
-                                accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
-                                amet!
-                            </h2>
+                    <div>
+                        <div class="data">
+                            <div class="image"></div>
+                            <div>
+                                <h1>Haravointia</h1>
+                                <h2>
+                                    Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
+                                    quasi
+                                    quisquam non
+                                    impeditsit
+                                    accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
+                                    amet!
+                                </h2>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div>
-                    <div class="data">
-                        <div class="image"></div>
-                        <div>
-                            <h1>Lumitöitä</h1>
-                            <h2>
-                                Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
-                                quasi
-                                quisquam non
-                                impeditsit
-                                accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
-                                amet!
-                            </h2>
+                    <div>
+                        <div class="data">
+                            <div class="image"></div>
+                            <div>
+                                <h1>Lumitöitä</h1>
+                                <h2>
+                                    Lorem ipsum dolor sit amet consectetur <strong>adipisicing elit.</strong> Delectus
+                                    quasi
+                                    quisquam non
+                                    impeditsit
+                                    accusantium dolores, ratione recusandae eius ipsam explicabo debitis quidem aliquam
+                                    amet!
+                                </h2>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        -->
         <!-- image-grid-2-end -->
         <!-- form-column -->
         <div class="section">
             <div class="form-column" id="contact">
                 <div class="google-form" id="ff-compose"></div>
                 <script async defer
-                    src="https://formfacade.com/include/112625860871249621031/form/1FAIpQLSeUNa-UKm5ItITt9sybENWdZoPw_e41tWK5VtvWcTbyJFn_KA/bootstrap.js?div=ff-compose"></script>
+                    src="https://formfacade.com/include/112625860871249621031/form/1FAIpQLSeSqnddjszRRS86IFdv7kyXiOE1tQn0_6fxGGW3oIotET4PnQ/bootstrap.js?div=ff-compose"></script>
             </div>
         </div>
         <!-- form-column-end -->
